@@ -1,0 +1,111 @@
+.grid-container {
+  display: grid;
+  border: 1px solid rgb(202, 4, 4);
+
+  /*  CODIGO TEAM BEBE 
+  column-gap: 10px;
+  row-gap: 10px; */
+
+  /*   CODIGO TEAM AVANZADO: */
+  gap: 10px;
+
+  /* CODIGO TEAM BEBE: */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 300px;
+
+  /*  CODIGO TEAM AVANZADO
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px); */
+
+
+  /*  CODIGO SUPER SAYAYIN
+                  Rows(filas)       /  Columns(columnas)           
+  grid-template: 200px 200px 300px / repeat(6, 1fr);
+   */
+}
+
+/*  Auto no  reparte el espacio  equitativamente */
+
+.grid-item {
+  border: 1px solid black;
+}
+.grid-item img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/*  SEGUNDO EJERCICIO */
+
+/* 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Franklin Gothic Medium';
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'navbar navbar '
+    'sidebar main '
+    'sidebar footer';
+  text-align: center;
+}
+
+nav {
+  grid-area: navbar;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: rgb(169, 232, 132);
+  padding: 1rem;
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(234, 180, 253);
+  padding: 1rem;
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(248, 162, 126);
+  padding: 2rem;
+}
+
+img {
+  margin-top: 100px;
+  height: 300px;
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.box{
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+}
+ */
